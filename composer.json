@@ -1,0 +1,13 @@
+{
+    "name": "daroon2/core",
+    "description": "Daroon2 Core WordPress Plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "google/apiclient": "^2.12.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daroon2\\Core\\": "src/"
+        }
+    }
+} 
